@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Iran Gonzalo Garza Martinez 1736815 N1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOSfgSZ4PbljWW2Gkx72mc2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GonzaloGarza/Iran-Gonzalo-Garza-Martinez-1736815-IMTC/blob/main/IA_Ejercicio1_IranGonzaloGarza_1736815\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VwbhM2Ty-2DE"
+      },
+      "source": [
+        "# Ejercicio 1: \n",
+        "Crear un programa que pregunte al usuario por su nombre, edad, una frase favorita y autor de la frase favorita. El programa deberá de imprimir un mensaje compuesto por el nombre y edad del usuario diciendo que su frase favorita es la que dió anteriormente y el autor de dicha frase es el nombre previamente dado. Aquí habrá que realizar una concatenación de variables. "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ms343O-r-3Kv",
+        "outputId": "0621cfd1-31cc-495f-9d82-a3475e223b56"
+      },
+      "source": [
+        "#Primera parte (\"Declara variables\")\n",
+        "nombre = input(\"¿Cual es tu nombre? \")\n",
+        "No = input(\"Escribe tu edad: \")\n",
+        "frase = input(\"Frase que mas te guste: \")\n",
+        "autor = input(\"Autor de la frase antes dicha: \")\n",
+        "\n",
+        "#Seguda parte (\"Imprime la suma de las variables\")\n",
+        "print(( nombre) + ( No) + ( frase) + ( autor))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "¿Cual es tu nombre? Gonzalo \n",
+            "Escribe tu edad: 22\n",
+            "Frase que mas te guste: Hay tubo\n",
+            "Autor de la frase antes dicha: La teibolera\n",
+            "Gonzalo 22Hay tuboLa teibolera\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
